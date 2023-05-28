@@ -1,0 +1,33 @@
+.card__image-container {
+  position: relative;
+  min-width: 618px;
+  z-index: 0;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__image-container {
+
+    max-height: 452px;
+    max-width: 364px;
+  }
+
+
+
+  .card__image-container:first-of-type {
+    min-height: 304px;
+    min-width: 304px;
+  }
+
+  .card__image-container:last-of-type {
+    min-width: 485px;
+    min-height: 607px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .card__image-container {
+    min-width: 100%;
+  }
+}

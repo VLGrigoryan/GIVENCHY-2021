@@ -1,0 +1,4 @@
+.card__fade_visible {
+  opacity: 1;
+  transform: translateX(0);
+}

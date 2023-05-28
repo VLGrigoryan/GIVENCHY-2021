@@ -1,0 +1,26 @@
+.element_button_subscribe {
+  background-color: black;
+  color: white;
+  margin-top: 32px;
+  width: 350px;
+  height: 48px;
+}
+
+.element_button_subscribe:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .element_button_subscribe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 767px) {
+  .element_button_subscribe {
+    max-width: 280px;
+    padding: 10px;
+    height: 44px;
+  }
+}

@@ -1,0 +1,26 @@
+.card {
+  display: grid;
+  grid-template-columns: minmax(413px, 520px) minmax(895px, 700px);
+  overflow: hidden;
+  position: relative;
+  justify-items: start;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    /* grid-template-columns: minmax(228px, 373px) minmax(364px, 485px); */
+    /* grid-auto-rows: 100%; */
+    grid-template-columns: minmax(235px, 208px) minmax(364px, 519px);
+    align-items: center;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

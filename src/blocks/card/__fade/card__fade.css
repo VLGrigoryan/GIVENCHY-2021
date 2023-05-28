@@ -1,0 +1,4 @@
+.card__fade {
+  opacity: 0;
+  /* transition: opacity 300ms ease-out; */
+}

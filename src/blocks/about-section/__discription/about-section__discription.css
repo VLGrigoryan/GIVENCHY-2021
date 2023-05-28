@@ -1,0 +1,9 @@
+.about-section__discription{
+  max-width: 697px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-section__discription {
+    width: 364px;
+  }
+}

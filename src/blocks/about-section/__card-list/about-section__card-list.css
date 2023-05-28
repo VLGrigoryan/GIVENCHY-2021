@@ -1,0 +1,23 @@
+.about-section__card-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 80px;
+  grid-template-rows: minmax(453px, 875px) minmax(304px, 618px) minmax(607px, 1095px);
+  margin-top: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-section__card-list {
+    grid-template-rows: 623px 455px 617px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-section__card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,19 @@
+.icon {
+  transition: color 0.3s, background-color 0.3s;
+  background-repeat: no-repeat;
+  background-position: center;
+  stroke: inherit;
+}
+
+.icon:hover {
+  stroke: inherit;
+  background-color: inherit;
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}

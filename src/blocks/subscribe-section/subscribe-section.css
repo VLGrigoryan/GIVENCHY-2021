@@ -1,0 +1,29 @@
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 40px;
+  max-width: 700px;
+  margin: 40px 20px;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subscribe-section {
+    max-width: 486px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .subscribe-section {
+    align-items: center;
+  }
+}
+
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+/* Mobile version */
+@media (max-width: 767px) {}
