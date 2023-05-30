@@ -1,0 +1,16 @@
+.card__image_last{
+  grid-column: 2;
+  grid-row: 1/5;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__image_last {
+    max-width: 485px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card__image_last {
+    max-width: 280px;
+  }
+}

@@ -40,7 +40,6 @@
 
 
 @import url(../blocks/looks-section/looks-section.css);
-@import url(../blocks/looks-section/__title-container/looks-section__title-container.css);
 @import url(../blocks/looks-section/__card-list/looks-section__card-list.css);
 @import url(../blocks/looks-section/__card/looks-section__card.css);
 
@@ -49,9 +48,14 @@
 
 
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/__image-container/card__image-container.css);
 @import url(../blocks/card/__image/card__image.css);
-@import url(../blocks/card/__text-container/card__text-container.css);
+@import url(../blocks/card/__image/_first/card__image_first.css);
+@import url(../blocks/card/__image/_second/card__image_second.css);
+@import url(../blocks/card/__image/_last/card__image_last.css);
+
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__text/_first/card__text_first.css);
+@import url(../blocks/card/__text/_second/card__text_second.css);
 @import url(../blocks/card/__fade/card__fade.css);
 @import url(../blocks/card/__fade/_left/card__fade_left.css);
 @import url(../blocks/card/__fade/_right/card__fade_right.css);

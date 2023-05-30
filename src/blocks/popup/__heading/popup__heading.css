@@ -2,6 +2,9 @@
   color: white;
   cursor: pointer;
   text-decoration: none;
+  font-size: 16px;
+  letter-spacing: .02em;
+  line-height: 24px;
 }
 
 .popup__heading:hover {
@@ -11,8 +14,9 @@
 
 @media screen and (max-width: 767px) {
   .popup__heading {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    letter-spacing: .02em;
+    line-height: 24px;
     margin: 25px 22px 0;
   }
 }

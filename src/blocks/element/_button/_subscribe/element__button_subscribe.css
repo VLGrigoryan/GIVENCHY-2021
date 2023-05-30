@@ -2,8 +2,7 @@
   background-color: black;
   color: white;
   margin-top: 32px;
-  width: 350px;
-  height: 48px;
+  padding: 11px 30px;
 }
 
 .element_button_subscribe:hover {
@@ -13,7 +12,6 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .element_button_subscribe {
-    width: 350px;
   }
 }
 

@@ -1,17 +1,17 @@
 .card {
   display: grid;
-  grid-template-columns: minmax(413px, 520px) minmax(895px, 700px);
+  grid-template-columns: minmax(413px, 520px) minmax(875px, 700px);
   overflow: hidden;
   position: relative;
   justify-items: start;
+  gap: 24px;
+  align-items: center;
 }
 
 /* Tablet version */
 @media (min-width: 768px) and (max-width: 1023px) {
   .card {
-    /* grid-template-columns: minmax(228px, 373px) minmax(364px, 485px); */
-    /* grid-auto-rows: 100%; */
-    grid-template-columns: minmax(235px, 208px) minmax(364px, 519px);
+    grid-template-columns: minmax(209px, 208px) minmax(364px, 485px);
     align-items: center;
   }
 }

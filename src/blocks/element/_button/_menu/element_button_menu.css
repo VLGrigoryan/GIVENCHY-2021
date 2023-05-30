@@ -15,8 +15,6 @@
 
 @media (max-width: 767px) {
   .element_button_menu {
-    /* transform: translateY(-43px); */
-    width: 237px;
     height: 24px;
   }
 }

@@ -1,0 +1,15 @@
+.card__image_second{
+  grid-column: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__image_second {
+    max-width: 304px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card__image_second {
+    max-width: 280px;
+  }
+}
