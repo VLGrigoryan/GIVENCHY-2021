@@ -7,15 +7,16 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__text {
-    width: 373px;
+    width: 367px;
     margin-bottom: 0;
+    margin-right: -9px;
   }
 }
 
 /* Mobile version */
 @media (max-width: 767px) {
   .card__text {
-    margin-bottom: 0;
+    margin: 0;
     max-width: 280px;
   }
 }
