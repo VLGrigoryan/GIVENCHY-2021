@@ -17,7 +17,7 @@
 
 @media (max-width: 767px) {
   .element_button_subscribe {
-    max-width: 280px;
+    width: 280px;
     padding: 10px;
     height: 44px;
   }
