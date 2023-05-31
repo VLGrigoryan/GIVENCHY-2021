@@ -1,0 +1,15 @@
+.about-section__title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .about-section__title-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

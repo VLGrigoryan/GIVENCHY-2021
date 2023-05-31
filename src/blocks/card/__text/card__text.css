@@ -1,0 +1,23 @@
+.card__text {
+  width: 697px;
+  z-index: 2;
+  margin-bottom: 80px;
+  margin-left: auto;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card__text {
+    margin-bottom: 0;
+    margin-right: -9px;
+    width: 373px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .card__text {
+    margin: 0;
+    max-width: 280px;
+  }
+}

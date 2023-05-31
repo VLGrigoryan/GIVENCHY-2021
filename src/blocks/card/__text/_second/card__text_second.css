@@ -1,0 +1,5 @@
+.card__text_second {
+  grid-column: 1;
+  grid-row: 3/3;
+  margin: 0;
+}

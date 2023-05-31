@@ -1,0 +1,17 @@
+.looks-section {
+  margin-bottom: 80px;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .looks-section {
+    margin-bottom: 60px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .looks-section {
+    margin: 0 20px 40px;
+  }
+}

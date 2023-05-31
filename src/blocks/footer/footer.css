@@ -1,0 +1,15 @@
+.footer {
+  align-items: center;
+  background-color: #0a0a0a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .footer{
+    text-align: center;
+    overflow: hidden;
+  }
+}

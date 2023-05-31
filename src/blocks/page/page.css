@@ -1,0 +1,7 @@
+.page { max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Prompt', 'Helvetica Neue', Arial, sans-serif;
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  overflow-x: hidden;
+}

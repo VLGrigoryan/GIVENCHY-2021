@@ -1,0 +1,17 @@
+.popup__headings {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  gap: 80px;
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .popup__headings {
+    gap: 40px;
+
+  }
+}

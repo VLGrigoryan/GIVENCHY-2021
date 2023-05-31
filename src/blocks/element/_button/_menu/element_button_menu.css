@@ -1,0 +1,20 @@
+.element_button_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 237px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .element_button_menu {
+    height: 24px;
+  }
+}

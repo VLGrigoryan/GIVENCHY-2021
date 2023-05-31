@@ -1,0 +1,28 @@
+.element_input_error {
+  color: #fffefe;
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-overflow: ellipsis;
+  visibility: hidden;
+  white-space: pre-wrap;
+  width: 650px;
+  border: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .element_input_error{
+    width: 238px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .element_input_error {
+    top: -15px;
+  }
+}

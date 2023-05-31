@@ -1,0 +1,26 @@
+.header {
+  background: rgba(231, 231, 226, 1) url('../../images/about/image1.png') no-repeat;
+  background-size: contain;
+  min-height: 900px;
+  position: relative;
+  display: flex;
+  justify-items: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    padding: 0;
+    min-height: 646px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .header {
+    justify-content: center;
+    min-height: 426px;
+  }
+}

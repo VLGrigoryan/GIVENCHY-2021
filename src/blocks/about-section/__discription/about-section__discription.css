@@ -1,0 +1,15 @@
+.about-section__discription{
+  max-width: 697px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-section__discription {
+    max-width: 364px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-section__discription {
+    max-width: 280px;
+  }
+}

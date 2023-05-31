@@ -1,0 +1,24 @@
+.typography_lead {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .typography_lead {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .typography_lead {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

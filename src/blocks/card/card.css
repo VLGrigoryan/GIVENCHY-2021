@@ -1,0 +1,25 @@
+.card {
+  display: grid;
+  grid-template-columns: minmax(413px, 480px) minmax(875px, 700px);
+  position: relative;
+  justify-items: start;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    grid-template-columns: minmax(209px, 208px) minmax(364px, 500px);
+    align-items: center;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
