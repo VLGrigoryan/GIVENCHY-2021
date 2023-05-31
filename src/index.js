@@ -4,12 +4,9 @@ import { FadeInAnimation } from './components/FadeInAnimation.js'
 import { ImageRepeater } from './components/ImageRepeater.js'
 import { FormValidator } from './components/FormValidator.js'
 import {
-  modalOverlay,
   menuButton,
-  aboutSectionCardList,
   cardLeft,
   cardRight,
-  looksSectionCardList,
   cardImages,
   checkbox,
   checkboxIcon,

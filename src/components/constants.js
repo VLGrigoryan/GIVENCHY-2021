@@ -1,8 +1,8 @@
 export const modalOverlay = document.querySelector('.popup');
 export const menuButton = document.querySelector('.element_button_menu');
 export const aboutSectionCardList = document.querySelector('.about-section__card-list')
-export const cardLeft = document.querySelectorAll('.card__fade_left');
-export const cardRight = aboutSectionCardList.querySelectorAll('.card__fade_right');
+export const cardLeft = document.querySelectorAll('.card_left');
+export const cardRight = aboutSectionCardList.querySelectorAll('.card_right');
 export const looksSectionCardList = document.querySelector('.looks-section__card-list');
 export const cardImages = looksSectionCardList.querySelectorAll('.card__image');
 export const checkbox = document.querySelector('.element_checkbox');

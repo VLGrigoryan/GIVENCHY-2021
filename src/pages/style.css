@@ -3,7 +3,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
-
 @import url(../blocks/element/element.css);
 @import url(../blocks/element/_button/element_button.css);
 @import url(../blocks/element/_button/_submit/element_button_submit.css);
@@ -13,9 +12,9 @@
 @import url(../blocks/element/_button/_close/element_button_close.css);
 
 @import url(../blocks/element/_input/element_input.css);
+@import url(../blocks/element/_input/_error/element_input_error.css);
 @import url(../blocks/element/_checkbox/element_checkbox.css);
 @import url(../blocks/element/_checkbox/_checked/element_checkbox_checked.css);
-@import url(../blocks/element/__container/element__container.css);
 
 @import url(../blocks/icon/_menu/icon_menu.css);
 @import url(../blocks/icon/icon.css);
@@ -29,6 +28,7 @@
 @import url(../blocks/typography/_headline/typography_headline.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
@@ -38,33 +38,27 @@
 @import url(../blocks/about-section/__title-container/about-section__title-container.css);
 @import url(../blocks/about-section/__card-list/about-section__card-list.css);
 
-
-@import url(../blocks/looks-section/looks-section.css);
-@import url(../blocks/looks-section/__card-list/looks-section__card-list.css);
-@import url(../blocks/looks-section/__card/looks-section__card.css);
-
-
-
-
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__image/_first/card__image_first.css);
 @import url(../blocks/card/__image/_second/card__image_second.css);
 @import url(../blocks/card/__image/_last/card__image_last.css);
-
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__text/_first/card__text_first.css);
 @import url(../blocks/card/__text/_second/card__text_second.css);
-@import url(../blocks/card/__fade/card__fade.css);
-@import url(../blocks/card/__fade/_left/card__fade_left.css);
-@import url(../blocks/card/__fade/_right/card__fade_right.css);
-@import url(../blocks/card/__fade/_visible/card__fade_visible.css);
+@import url(../blocks/card/_left/card_left.css);
+@import url(../blocks/card/_right/card_right.css);
+
+@import url(../blocks/looks-section/looks-section.css);
+@import url(../blocks/looks-section/__card-list/looks-section__card-list.css);
+@import url(../blocks/looks-section/__card/looks-section__card.css);
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__heading/popup__heading.css);
 @import url(../blocks/popup/__headings/popup__headings.css);
+
 @import url(../blocks/subscribe-section/subscribe-section.css);
 @import url(../blocks/subscribe-section/__title/subscribe-section__title.css);
 @import url(../blocks/subscribe-section/__privacy-policy/subscribe-section__privacy-policy.css);

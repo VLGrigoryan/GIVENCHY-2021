@@ -1,7 +1,6 @@
 .card {
   display: grid;
   grid-template-columns: minmax(413px, 480px) minmax(875px, 700px);
-  overflow: hidden;
   position: relative;
   justify-items: start;
   gap: 24px;

@@ -5,11 +5,12 @@
   margin-left: auto;
 }
 
+/* Tablet version */
 @media (min-width: 768px) and (max-width: 1023px) {
   .card__text {
-    width: 367px;
     margin-bottom: 0;
     margin-right: -9px;
+    width: 373px;
   }
 }
 
