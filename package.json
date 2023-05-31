@@ -1,7 +1,7 @@
 {
-  "name": "mesto-project",
+  "name": "GIVENCHY-2021",
   "version": "1.0.0",
-  "description": "Ссылки на сайт:https://vlgrigoryan.github.io/GIVENCHY/",
+  "description": "Ссылки на сайт:https://vlgrigoryan.github.io/GIVENCHY-2021/",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
